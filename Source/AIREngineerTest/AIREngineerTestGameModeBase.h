@@ -6,12 +6,12 @@
 #include "GameFramework/GameModeBase.h"
 #include "AIREngineerTestGameModeBase.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class AIRENGINEERTEST_API AAIREngineerTestGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+	AAIREngineerTestGameModeBase();
 };
